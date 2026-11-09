@@ -7,7 +7,8 @@ public class StudentProfile {
         double completedProgress=98.89;
         boolean hasCompletedPayment=true;
         char currentGrade='A';
-
+        
+        System.out.println("Student details:");
         System.out.println(studentName);
         System.out.println(age);
         System.out.println(completedProgress);
